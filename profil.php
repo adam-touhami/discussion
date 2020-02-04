@@ -14,8 +14,9 @@ if(isset($_SESSION['login']))
 <html>
 
 	<head>
-		<link href="discussion.css" rel="stylesheet">
+		<link href="index.css" rel="stylesheet">
 		<title>Profil</title>
+		<link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
 	</head>
 
 	<body class="profil">

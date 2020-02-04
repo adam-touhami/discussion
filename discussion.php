@@ -1,4 +1,5 @@
 
+
 <head><meta http-equiv="refresh" content="10;url=discussion.php">
 <?php
 session_start();
@@ -20,9 +21,10 @@ if(!empty($_POST['deco']))
 ?>	
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href ="connexion.css"/>
+<link rel="stylesheet" type="text/css" href ="index.css"/>
 <link href="accueil.css" rel="stylesheet">
 <title>Discussion</title>
+<link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
 </head>
 <body class="discussion">
 <?php
@@ -127,7 +129,7 @@ $id=mysqli_fetch_array($query);
 
 
 
-<div class="ajtcomm"><h2>Ajoutez votre commentaire:</h2>    
+<div class="ajtcomm"><h2>Ajoutez votre messages:</h2>    
 
 <form class="formulaire1" name="inscription" method="post" action="discussion.php">
     
